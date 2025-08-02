@@ -23,12 +23,32 @@ A **Streamlit web app** that predicts residential energy usage (in kilowatt-hour
 
 ## 🛠️ How to Run Locally
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/AkulaArchana04/residential-energy-predictor.git
-cd residential-energy-predictor
 
 **2. Install Dependencies**
+
+pip install -r requirements.txt
+
+**3. Run the Streamlit App**
+
+streamlit run app3_combo.py
+
+**🧪 Sample Input Values**
+
+| Feature              | Example  |
+| -------------------- | -------- |
+| num\_occupants       | 3        |
+| house\_size\_sqft    | 1500     |
+| monthly\_income      | 40000    |
+| cooling\_type        | AC       |
+| heating\_type        | Electric |
+| manual\_override     | Yes      |
+| energy\_star\_rating | Checked  |
+
+**📦 Requirements**
+
+streamlit
+pandas
+plotly
+joblib
 
 
